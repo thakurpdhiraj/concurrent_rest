@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/callable-four/callable-four.iml" filepath="$PROJECT_DIR$/callable-four/callable-four.iml" />
+      <module fileurl="file://$PROJECT_DIR$/callable-one/callable-one.iml" filepath="$PROJECT_DIR$/callable-one/callable-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/callable-three/callable-three.iml" filepath="$PROJECT_DIR$/callable-three/callable-three.iml" />
+      <module fileurl="file://$PROJECT_DIR$/callable-two/callable-two.iml" filepath="$PROJECT_DIR$/callable-two/callable-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/caller/caller.iml" filepath="$PROJECT_DIR$/caller/caller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/concurrent_rest.iml" filepath="$PROJECT_DIR$/.idea/concurrent_rest.iml" />
+    </modules>
+  </component>
+</project>

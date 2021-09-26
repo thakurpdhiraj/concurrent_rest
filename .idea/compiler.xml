@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_ADDITIONAL_VM_OPTIONS" value="-Djps.track.ap.dependencies=false" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="callable-three" />
+        <module name="caller" />
+        <module name="callable-four" />
+        <module name="callable-one" />
+        <module name="callable-two" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="callable-four" target="11" />
+      <module name="callable-one" target="11" />
+      <module name="callable-three" target="11" />
+      <module name="callable-two" target="11" />
+      <module name="caller" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="callable-four" options="-parameters" />
+      <module name="callable-one" options="-parameters" />
+      <module name="callable-three" options="-parameters" />
+      <module name="callable-two" options="-parameters" />
+      <module name="caller" options="-parameters" />
+    </option>
+  </component>
+</project>
